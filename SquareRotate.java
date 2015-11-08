@@ -13,7 +13,6 @@ import javax.swing.*;
 
 
 
-
 public class SquareRotate extends JFrame {
 	public SquareRotate() {
 		super("Square Rotation");
@@ -115,7 +114,7 @@ class Square extends JPanel
 }
 
 enum RotationController {
-	START(KeyEvent.VK_UP), STOP(KeyEvent.VK_DOWN);
+	STOP(KeyEvent.VK_UP), START(KeyEvent.VK_DOWN);
 
 	private int key;
 
