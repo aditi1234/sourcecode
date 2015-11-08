@@ -13,6 +13,7 @@ import javax.swing.*;
 
 
 
+
 public class SquareRotate extends JFrame {
 	public SquareRotate() {
 		super("Square Rotation");
